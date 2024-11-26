@@ -1,38 +1,38 @@
 body {
-    margin: 0;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.Expo {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 10 10%;
+  /*background-image: url();
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 35%;*/
+  margin-bottom: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
   
-  .container {
-    display: flex;
-    position: relative;
-    height: 100vh;
-    width: 300%;
-    transition: transform 1s ease-in-out;
-  }
+}
+.expoContent{
+  max-width: 75%;
+  text-align: justify;
+  margin-top: 40%;
+  margin-right: 5%;
+  margin-left: 40%;
   
-  .page {
-    flex: 1;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-  }
-  
-  .page1 { background-color: #f8b400; }
-  .page2 { background-color: #4caf50; }
-  .page3 { background-color: #2196f3; }
-  
-  .car {
-    position: absolute;
-    width: 50px;
-    height: 25px;
-    background-color: red;
-    border-radius: 5px;
-    top: 80%;
-    left: 5%;
-    z-index: 10;
-  }
-  
+}
+
+.expoContent h1 {
+margin-bottom: 3%;
+font-size: 32px;
+font-weight: 400;
+}
+
+section {
+width: 50%;
+}
