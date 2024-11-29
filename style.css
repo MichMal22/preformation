@@ -55,13 +55,13 @@ body {
 }
 footer {
   flex-shrink: 0;
-  border-top: 1px dashed #000;
-  width: 100%;
-  background: #ffff;
+  border-top: l #000;
+  width: 0%;
+  background: #b62e2e;
   color: #333;
-  margin: 20px 0px 0 50px;
-  background: gold;
-  width: 66%;
+  margin: 0%;
+  background: rgb(104, 230, 2);
+  width: 100%;
 
 }
 
@@ -84,7 +84,7 @@ footer {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
-    background-color: rgb(230, 189, 7);
+    background-color: rgb(255, 209, 4);
     background-image: linear-gradient(
       to center,
       rgba(0, 0, 0, 0.2),
@@ -133,7 +133,10 @@ footer {
 }
 
 .copyright{
-  margin-right: 50%;
+  margin-right: 10%;
   font-size: xx-small;
   font-style: italic ;
+  margin-block-start: 100%;
+  text-align: right;
 }
+
