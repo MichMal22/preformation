@@ -8,17 +8,46 @@
     <body>
         <header>
             <nav>
-            <ul>
-                <li>
-                    <a href="Accueil.html">Point de départ </a>
-                </li>
-                <li>
-                    <a href="Interview.html">interview</a>
-                </li>
-                <li>
-                    <a href="Entreprise.html">Où est-ce ?</a>
-                </li>
-            </ul>
+                <nav class="navbar">
+                    <!-- LOGO -->
+                    <div class="logo">MDC</div>
+                
+                    <!-- NAVIGATION MENU -->
+                    <ul class="nav-links">
+                
+                      <!-- USING CHECKBOX HACK -->
+                      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
+                      <!-- NAVIGATION MENUS -->
+                      <div class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                        
+                
+                
+                        <li class="entreprise">
+                            <a href="entreprise">Entreprise</a>
+                                <!-- DROPDOWN MENU ENTREPRISE-->
+                            <ul class="dropdown">
+                                <li><a href="Interview.html">L'interview</a></li>
+                                <li><a href="#">Le rapport d'entreprise</a></li>
+                                <li><a href="#">L'organigramme</a></li>
+                            </ul>
+                        </li>
+                        <li class="exposition">
+                          <a href="#">Exposition</a>
+                
+                          <!-- DROPDOWN MENU EXPOSITION-->
+                          <ul class="dropdown">
+                            <li><a href="Exposition.html">Mon expérience</a></li>
+                            <li><a href="/">La galerie photo</a></li>
+                          </ul>
+                
+                        </li>
+                        <li><a href="Conclusion.html">Conclusion</a></li>
+                        <li><a href="/">Contact</a></li>
+                      </div>
+                    </ul>
+                  </nav>
             </nav>
         </header>
     <section class="Expo">
