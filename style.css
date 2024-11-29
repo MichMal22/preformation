@@ -60,7 +60,7 @@ footer {
   background: #b62e2e;
   color: #333;
   margin: 0%;
-  background: rgb(104, 230, 2);
+  background: #cfcfcf;
   width: 100%;
 
 }
@@ -133,10 +133,14 @@ footer {
 }
 
 .copyright{
-  margin-right: 10%;
-  font-size: xx-small;
-  font-style: italic ;
-  margin-block-start: 100%;
-  text-align: right;
+  margin-right: -50%;
+  font-size: small;
+  font-style: justify ;
+  margin-block-start: 0%;
+  text-align: center;
 }
 
+nav {
+  margin: auto;
+  writing-mode: horizontal-tb;
+}
