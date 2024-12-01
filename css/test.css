@@ -1,3 +1,49 @@
+
+@font-face {
+  font-family: Lexend-Black;
+  src: url(./font/Lexend-Black.ttf);
+}
+
+@font-face {
+  font-family: Lexend-Bold;
+  src: url(./font/Lexend-Bold.ttf);
+}
+
+@font-face {
+  font-family: Lexend-ExtraBold;
+  src: url(./font/Lexend-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Lexend-ExtraLight;
+  src: url(./font/Lexend-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Lexend-Light;
+  src: url(./font/Lexend-Light.ttf);
+}
+
+@font-face {
+  font-family: Lexend-Medium;
+  src: url(./font/Lexend-Medium.ttf);
+}
+
+@font-face {
+  font-family: Lexend-Regular;
+  src: url(./font/Lexend-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lexend-SemiBold;
+  src: url(./font/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Lexend-Thin;
+  src: url(./font/Lexend-Thin.ttf);
+}
+
 /* UTILITIES */
 * {
     margin: 0;
@@ -60,12 +106,12 @@
   }
   
   .dropdown {
-    background-color: rgb(1, 139, 139);
+    background-color: #B8D1EC;
     padding: 1em 0;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
-    top: 35px;
+    top: 31px;
   }
   
   .dropdown li + li {
@@ -93,3 +139,26 @@
   .entreprise:hover .dropdown {
     display: block;
   }
+
+  .accueilcontent {
+    max-width: 700px;
+}
+
+  .accueilcontent h1 {
+    margin-top: 10%;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.accueilcontent h2 {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.accueilcontent p {
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-weight: 200;
+}
