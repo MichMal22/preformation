@@ -148,6 +148,9 @@
     margin-top: 10%;
     font-size: 45px;
     font-weight: 300;
+    font-style: italic;
+    font-family: Tangerine-Bold;
+    src:url("/font/Tangerine/Tangerine-Bold.ttf")
 }
 
 .accueilcontent h2 {
@@ -155,6 +158,7 @@
   font-size: 30px;
   font-weight: 300;
   color: #000000;
+  font-style: italic;
 }
 
 .accueilcontent p {
