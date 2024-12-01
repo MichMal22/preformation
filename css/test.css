@@ -166,3 +166,9 @@
   font-size: 20px;
   font-weight: 200;
 }
+
+footer {
+  font-size: small;
+  text-align: center;
+  margin-bottom: 5%;
+}
