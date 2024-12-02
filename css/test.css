@@ -1,47 +1,47 @@
 
 @font-face {
   font-family: Lexend-Black;
-  src: url(./font/Lexend-Black.ttf);
+  src: url(/font/Lexend/Lexend-Black.ttf);
 }
 
 @font-face {
   font-family: Lexend-Bold;
-  src: url(./font/Lexend-Bold.ttf);
+  src: url(/font/Lexend/Lexend-Bold.ttf);
 }
 
 @font-face {
   font-family: Lexend-ExtraBold;
-  src: url(./font/Lexend-ExtraBold.ttf);
+  src: url(/font/Lexend/Lexend-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: Lexend-ExtraLight;
-  src: url(./font/Lexend-ExtraLight.ttf);
+  src: url(/font/Lexend/Lexend-ExtraLight.ttf);
 }
 
 @font-face {
   font-family: Lexend-Light;
-  src: url(./font/Lexend-Light.ttf);
+  src: url(/font/Lexend/Lexend-Light.ttf);
 }
 
 @font-face {
   font-family: Lexend-Medium;
-  src: url(./font/Lexend-Medium.ttf);
+  src: url(/font/Lexend/Lexend-Medium.ttf);
 }
 
 @font-face {
   font-family: Lexend-Regular;
-  src: url(./font/Lexend-Regular.ttf);
+  src: url(/font/Lexend/Lexend-Regular.ttf);
 }
 
 @font-face {
   font-family: Lexend-SemiBold;
-  src: url(./font/Lexend-SemiBold.ttf);
+  src: url(/font/Lexend/Lexend-SemiBold.ttf);
 }
 
 @font-face {
   font-family: Lexend-Thin;
-  src: url(./font/Lexend-Thin.ttf);
+  src: url(/font/Lexend/Lexend-Thin.ttf);
 }
 
 /* UTILITIES */
@@ -140,6 +140,8 @@
     display: block;
   }
 
+/* ACCUEIL CONTENT */
+
   .accueilcontent {
     max-width: 700px;
 }
@@ -167,8 +169,12 @@
   font-weight: 200;
 }
 
+/* FOOTER */
+
 footer {
   font-size: small;
   text-align: center;
   margin-bottom: 5%;
 }
+
+/*  */
