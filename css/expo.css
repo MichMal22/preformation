@@ -41,7 +41,7 @@ width: 50%;
 }
 
 body {
-  font-family: Lexend;
+  font-family: cursive;
 }
 
 a {
@@ -58,7 +58,7 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: rgb(0, 0, 0);
+  background-color: teal;
   color: #fff;
 }
 
@@ -74,7 +74,7 @@ li {
 /* NAVBAR MENU */
 .menu {
   display: flex;
-  gap: 1em;
+  gap: 2em;
   font-size: 18px;
 }
 
@@ -94,12 +94,12 @@ li {
 }
 
 .dropdown {
-  background-color: #B8D1EC;
+  background-color: rgb(1, 139, 139);
   padding: 1em 0;
   position: absolute; /*WITH RESPECT TO PARENT*/
   display: none;
   border-radius: 8px;
-  top: 31px;
+  top: 35px;
 }
 
 .dropdown li + li {
@@ -116,7 +116,7 @@ li {
   background-color: #4c9e9e;
 }
 
-.exposition:hover .dropdown {
+.expostion:hover .dropdown {
   display: block;
 }
 
@@ -124,6 +124,3 @@ li {
   position: relative; 
 }
 
-.entreprise:hover .dropdown {
-  display: block;
-}
