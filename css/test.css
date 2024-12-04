@@ -53,6 +53,7 @@
   
   body {
     font-family: Lexend;
+    background-color: #323232;
   }
   
   a {
@@ -152,22 +153,28 @@
     font-weight: 300;
     font-style: italic;
     font-family: Tangerine-Bold;
-    src:url("/font/Tangerine/Tangerine-Bold.ttf")
+    src:url("/font/Tangerine/Tangerine-Bold.ttf");
+    margin-left: 10%;
+    color: #ffffff;
 }
 
 .accueilcontent h2 {
   text-align: right;
   font-size: 30px;
   font-weight: 300;
-  color: #000000;
+  color: #ffffff;
   font-style: italic;
+  margin-left: auto;
+  
 }
 
 .accueilcontent p {
-  margin-bottom: 5%;
+  margin-bottom: 55%;
   font-size: 20px;
   font-weight: 200;
   align-content: center;
+  margin-left: 10%;
+  color: #ffffff;
 }
 
 /* FOOTER */
