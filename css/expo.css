@@ -14,7 +14,7 @@
   margin-left: 5%;
   
 }
-.expoContent{
+.expocontent{
   max-width: 75%;
   text-align: justify;
   margin-top: 40%;
@@ -23,10 +23,11 @@
   
 }
 
-.expoContent h1 {
+.expocontent h1 {
 margin-bottom: 3%;
 font-size: 32px;
 font-weight: 400;
+align-content: center;
 }
 
 section {
