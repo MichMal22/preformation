@@ -52,6 +52,7 @@
   
   body {
     font-family: Lexend;
+    background-color: #323232;
   }
   
   a {
@@ -105,7 +106,7 @@
   }
   
   .dropdown {
-    background-color: #B8D1EC;
+    background-color: #4c9e9e;
     padding: 1em 0;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
@@ -124,7 +125,7 @@
   }
   
   .dropdown li:hover {
-    background-color: #4c9e9e;
+    background-color: #B8D1EC;
   }
   
   .exposition:hover .dropdown {
