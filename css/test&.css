@@ -80,7 +80,7 @@
     }
     
     /* LOGO__________________________________________ */
-    .logo {
+    .navbar__logo {
       font-size: 32px;
     }
     
@@ -126,7 +126,7 @@
     }
     
     .dropdown li:hover {
-      background-color: transparent;
+      background-color: #FA3D00 ;
     }
     
     .exposition:hover .dropdown {
