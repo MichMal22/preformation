@@ -239,10 +239,11 @@ li:last-child {
 
 .flip-box {
   background-color: transparent;
-  width: 300px;
+  width: 200px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
+  align-items: center;
 }
 
 .flip-box-inner {
@@ -267,12 +268,12 @@ li:last-child {
 }
 
 .flip-box-front {
-  background-color: #bbb;
+  background-color: #ffffff;
   color: black;
 }
 
 .flip-box-back {
-  background-color: #323200;
+  background-color: gray;
   color: white;
   transform: rotateX(180deg);
 }
