@@ -103,7 +103,7 @@ div:hover p {
   }
   
   /* LOGO__________________________________________ */
-  .logo {
+  .nav__logo {
     font-size: 32px;
   }
   
@@ -237,7 +237,7 @@ li:last-child {
 
 /* FLIPBOX______________________________________________ */
 
-.flip-box {
+/* .flip-box {
   background-color: transparent;
   width: 200px;
   height: 200px;
@@ -276,4 +276,4 @@ li:last-child {
   background-color: gray;
   color: white;
   transform: rotateX(180deg);
-}
+} */
