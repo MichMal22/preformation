@@ -191,10 +191,6 @@
       
       /* FOOTER */__________________________________________
       
-      .footer {
-        font-size: small;
-        text-align: center;
-      }
 
       ul {
         display: inline-grid;
@@ -242,6 +238,7 @@
         background-color: #323232;
         line-height: 1.3;
         font-family: Menlo, monospace;
+        bottom: auto;
       }
       
       @keyframes wave-animation {
