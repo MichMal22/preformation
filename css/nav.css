@@ -101,9 +101,25 @@ p {
   
 }
 
-.expo {
+.expo1 {
   color: #fff;
-  text-align: center;
+  text-align: right;
+  max-width: 60%;
+  margin-right: 10%;
+  font-size: larger;
+}
+
+.expo2 {
+  text-align: left;
+  max-width: 60%;
+  margin-left: 10%;
+  font-size: large;
+}
+
+.img {
+  display: flex;
+  max-height: min-content;
+  max-width: min-content;
 }
 
 .blocinfo {
