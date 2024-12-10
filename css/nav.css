@@ -144,8 +144,8 @@ p {
 
 
 .image-container{
-  columns: 4;
-  gap: 5px;
+  /* columns: 4; */
+  /* gap: 5px; */
   align-content: center;
 }
 
@@ -157,7 +157,7 @@ p {
   border-radius: 30px;
   border-right-style: double;
   border-right-color: #a1a7a9;
-  width: 80%;
+  width: 60%;
   max-height: 600px;
 }
 
