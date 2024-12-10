@@ -116,6 +116,12 @@ p {
   font-size: large;
 }
 
+.expo3 {
+  text-align: right;
+  margin-right: 10%;
+  font-size: large;
+}
+
 .img {
   display: flex;
   max-height: min-content;
