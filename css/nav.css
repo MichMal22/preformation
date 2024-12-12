@@ -53,11 +53,12 @@ section {
 
 .expocontent hr {
   width: auto;
+
 }
 
 .expocontent h1 {
 margin-bottom: 3%;
-margin-top: 5%;
+margin-top: 10%;
 font-size: 40px;
 font-weight: 400;
 align-content: center;
@@ -67,9 +68,13 @@ color: #fff;
 
 
 p {
+  margin-top: 26px;
+  margin-bottom: 5%;
+  border-radius: 12px;
   display: block;
-  background-color: #323232;
-  padding: 50px;
+  background-color: #000000;
+  background: rgb(50,50,50);
+  background: radial-gradient(circle, rgba(50,50,50,1) 12%, rgba(0,0,0,1) 88%);
   margin-left: auto;
   margin-right: auto;
   line-height: 2em;
@@ -77,6 +82,8 @@ p {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 800px;
+  padding: 25px;
+  text-align: center;
 }
 
 /* div:hover p {
@@ -84,7 +91,7 @@ p {
 } */
 
 .h3 {
-  color: #FA3D00;
+  color: gold;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -95,7 +102,7 @@ p {
 }
 
 .conclusion {
-  margin-top: 5%;
+  margin-top: 10%;
   color: #fff;
   text-align: center;
   margin-left: auto;
@@ -114,7 +121,7 @@ p {
 }
 
 .expo1__title {
-  margin-top: 5%;
+  margin-top: 10%;
 
 }
 
@@ -162,7 +169,7 @@ p {
 }
 
 .contentExpoGalerie {
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
   font-weight: 400;
   font-size: larger;
@@ -225,7 +232,7 @@ p {
   }
   
   .menu li:hover {
-    background-color: #FA3D00;
+    background-color: #323232;
     border-radius: 5px;
     transition: 0.3s ease;
   }
@@ -240,12 +247,13 @@ p {
   }
   
   .dropdown {
-    background-color: #FA3D00;
+    background-color: #000000;
     padding: 1em 0;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
     top: 31px;
+    border: solid white;
   }
   
   .dropdown li + li {
@@ -260,7 +268,7 @@ p {
   }
   
   .dropdown li:hover {
-    background-color: transparentgit ;
+    background-color: transparent ;
   }
   
   .exposition:hover .dropdown {
@@ -275,6 +283,11 @@ p {
     display: block;
   }
 
+/* INTERVIEW_______________________________________ */
+
+.interview figure{
+  align-content: center;
+}
 /* FOOTER__________________________________________ */
       
 .footer {

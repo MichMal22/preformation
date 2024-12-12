@@ -94,7 +94,7 @@
     }
     
     .menu li:hover {
-      background-color: #FA3D00;
+      background-color: #323232;
       border-radius: 5px;
       transition: 0.3s ease;
     }
@@ -109,12 +109,13 @@
     }
     
     .dropdown {
-      background-color: #FA3D00;
+      background-color: #000000;
       padding: 1em 0;
       position: absolute; /*WITH RESPECT TO PARENT*/
       display: none;
       border-radius: 8px;
       top: 31px;
+      border: solid white;
     }
     
     .dropdown li + li {
@@ -128,7 +129,7 @@
     }
     
     .dropdown li:hover {
-      background-color: #FA3D00 ;
+      background-color: #323232 ;
     }
     
     .exposition:hover .dropdown {
