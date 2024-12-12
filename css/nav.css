@@ -196,6 +196,8 @@ p {
 
   /* NAVBAR STYLING STARTS__________________________________________ */
   .navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
