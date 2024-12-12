@@ -73,6 +73,7 @@
       padding: 20px;
       background-color: rgb(0, 0, 0);
       color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
     }
     
     .nav-links a {
@@ -82,6 +83,7 @@
     /* LOGO__________________________________________ */
     .navbar__logo {
       font-size: 32px;
+      font-family: Lexend;
     }
     
     /* NAVBAR MENU__________________________________________ */
@@ -121,7 +123,7 @@
     
     .dropdown li {
       padding: 0.5em 1em;
-      width: 8em;
+      /* width: 8em; */
       text-align: center;
     }
     
