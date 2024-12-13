@@ -7,7 +7,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/nav.css" />
           <!-- Liens______________________ -->
-  <title>Projet préformation : Rapport  d'entreprise</title>
+  <title>Projet préformation : Organigramme</title>
+  <style>
+    
+    .chart {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .chart h1 {
+        color: #ffffff;
+    }
+    .level {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .box {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px 20px;
+        /* margin-top: 10%; */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .line {
+        border-left: 5px solid #000;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .connector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .horizontal-line {
+        border-top: 2px solid #000;
+        width: 100px;
+    }
+
+    .h1 {
+        margin-top: 20%;
+        color: #ffffff;
+        text-align: center;
+
+    }
+</style>
 </head>
 
 <body>
@@ -31,7 +76,7 @@
                 <!-- DROPDOWN MENU ENTREPRISE-->
             <ul class="dropdown">
                 <li><a href="Interview.html">L'interview</a></li>
-                <li><a href="rapport.html">Rapport d'entreprise</a></li>
+                <!-- <li><a href="rapport.html">Rapport d'entreprise</a></li> -->
                 
             </ul>
         </li>
@@ -41,7 +86,7 @@
           <!-- DROPDOWN MENU EXPOSITION-->
           <ul class="dropdown">
             <li><a href="Experience.html">Mon expérience</a></li>
-
+            <li><a href="galerie.html">Galerie Photo</a></li>
           </ul>
 
         </li>
@@ -54,14 +99,49 @@
    <hr>
 
 
+   <div class="chart">
+    <h1><u>L'organigramme</u></h1>
+    <div class="level">
+        <div class="box">Ramon Reyntiens<br><small>Fondateur</small></div>
+    </div>
+    <div class="connector">
+        <div class="line"></div>
+    </div>
+    <div class="level">
+        <div class="box">François Petre<br><small>CEO</small></div>
+    </div>
+    <div class="connector">
+        <div class="line"></div>
+    </div>
+    <div class="level">
+        <div class="box">Benoît Fekenne<br><small>Product Owner</small></div>
+    </div>
+    <div class="connector">
+        <div class="line"></div>
+    </div>
+    <div class="level">
+        <div class="box">Dimitri Celis<br><small>Chargé de projet</small></div>
+    </div>
+    <div class="connector">
+        <div class="line"></div>
+    </div>
+    <div class="level">
+        <div class="box">Sander Soetaert<br><small>Lead Flutter Developer</small></div>
+    </div>
+    <div class="level">
+        <div class="box">Benjamin Tarica<br><small>Fullstack Developer Senior</small></div>
+        <div class="box">Gabriel Curatolo<br><small>Fullstack Developer Senior</small></div>
+        <div class="box">Nicolas D'hondt<br><small>Fullstack Developer Junior</small></div>
+    </div>
+</div>
    
    <hr>
    <!-- Footer -->
    <div class="footercontact">
      <ul>
-       <li><a href="https://x.com/Mich30002">Twitter</a></li>
-       <li><a href="mailto:miguel.da.costa.sourd@gmail.com">Email</a></li>
-       <li><a href="https://github.com/MichMal22">Github</a></li>
+       <li><a href="https://x.com/"target="_blank">Twitter</a></li>
+       <li><a href="mailto:miguel.da.costa.sourd@gmail.com"target="_blank">Email</a></li>
+       <li><a href="https://github.com/MichMal22"target="_blank">Github</a></li>
        <li>👋</li>
      </ul>
    </div>
